@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Report</string>
+    <string name="rp_dispose_nr">感谢您的反馈，我们会在72小时内完成审核，审核结果最终发送到您的信息中。良好的网络环境需要我们共同维护。</string>
+</resources>

@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp">
+        <ImageView
+            android:id="@+id/back_iv"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:src="@drawable/rp_return"
+            android:layout_width="22dp"
+            android:layout_height="22dp" />
+        <TextView
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:textSize="18sp"
+            android:textColor="#222222"
+            android:text="举报回复"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+    <View
+        android:background="#dbdbdb"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <RelativeLayout
+        android:background="#f2f2f2"
+        android:layout_width="match_parent"
+        android:layout_height="37dp">
+        <TextView
+            android:textSize="16sp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="16dp"
+            android:textColor="#727272"
+            android:text="请选择投诉理由（可多选）"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/plrp_guanggao_bt"
+        android:layout_width="match_parent"
+        android:layout_height="44dp">
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/plrp_guanggao_img"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="12dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/report_checked"
+            android:layout_width="22dp"
+            android:layout_height="22dp" />
+        <TextView
+            android:layout_marginLeft="16dp"
+            android:gravity="center"
+            android:textSize="17sp"
+            android:textColor="#222222"
+            android:text="广告"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+
+            />
+    </RelativeLayout>
+    <View
+        android:background="#dbdbdb"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <RelativeLayout
+        android:id="@+id/plrp_hd_bt"
+        android:layout_width="match_parent"
+        android:layout_height="44dp">
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/plrp_hd_img"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="12dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/report_checked"
+            android:layout_width="22dp"
+            android:layout_height="22dp" />
+        <TextView
+            android:layout_marginLeft="16dp"
+            android:gravity="center"
+            android:textSize="17sp"
+            android:textColor="#222222"
+            android:text="回答含有色情/低俗/暴力成分"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+
+            />
+    </RelativeLayout>
+    <View
+        android:background="#dbdbdb"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <RelativeLayout
+        android:id="@+id/plrp_fd_bt"
+        android:layout_width="match_parent"
+        android:layout_height="44dp">
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/plrp_fd_img"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="12dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/report_checked"
+            android:layout_width="22dp"
+            android:layout_height="22dp" />
+        <TextView
+            android:layout_marginLeft="16dp"
+            android:gravity="center"
+            android:textSize="17sp"
+            android:textColor="#222222"
+            android:text="反动"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+
+            />
+    </RelativeLayout>
+    <View
+        android:background="#dbdbdb"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <RelativeLayout
+        android:id="@+id/plrp_yy_bt"
+        android:layout_width="match_parent"
+        android:layout_height="44dp">
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/plrp_yy_img"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="12dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/report_checked"
+            android:layout_width="22dp"
+            android:layout_height="22dp" />
+        <TextView
+            android:layout_marginLeft="16dp"
+            android:gravity="center"
+            android:textSize="17sp"
+            android:textColor="#222222"
+            android:text="谣言"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+
+            />
+    </RelativeLayout>
+    <View
+        android:background="#dbdbdb"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <RelativeLayout
+        android:id="@+id/plrp_qz_bt"
+        android:layout_width="match_parent"
+        android:layout_height="44dp">
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/plrp_qz_img"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="12dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/report_checked"
+            android:layout_width="22dp"
+            android:layout_height="22dp" />
+        <TextView
+            android:layout_marginLeft="16dp"
+            android:gravity="center"
+            android:textSize="17sp"
+            android:textColor="#222222"
+            android:text="欺诈或者恶意营销"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+
+            />
+    </RelativeLayout>
+    <View
+        android:background="#dbdbdb"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <RelativeLayout
+        android:id="@+id/plrp_mm_bt"
+        android:layout_width="match_parent"
+        android:layout_height="44dp">
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/plrp_mm_img"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="12dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/report_checked"
+            android:layout_width="22dp"
+            android:layout_height="22dp" />
+        <TextView
+            android:layout_marginLeft="16dp"
+            android:gravity="center"
+            android:textSize="17sp"
+            android:textColor="#222222"
+            android:text="谩骂"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+
+            />
+    </RelativeLayout>
+    <View
+        android:background="#dbdbdb"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <Button
+        android:id="@+id/plrp_githup"
+        android:background="@drawable/rp_button_false"
+        android:textColor="#fefefe"
+        android:textSize="17sp"
+        android:text="提交"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="44dp" />
+</LinearLayout>
