@@ -12,7 +12,7 @@ public class ActivityStack {
         public static ActivityStack getInstance() {
             if (activityStack == null) {
                 activityStack = new ActivityStack();
-            //ca
+            //cas
             }
             return activityStack;
         }
